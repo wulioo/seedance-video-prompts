@@ -1,0 +1,6 @@
+interface:
+  display_name: "Seedance 视频提示词知识库"
+  short_description: "官方规则与双版本标注模板，默认使用2.0，明确指定时仅用2.5"
+  default_prompt: "使用 $seedance-video-prompts，根据我的创意编写可直接复制的视频提示词，默认采用 Seedance 2.0。"
+policy:
+  allow_implicit_invocation: true
